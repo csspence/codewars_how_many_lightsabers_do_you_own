@@ -12,6 +12,6 @@ howManyLightsabersDoYouOwn("Zach") === 18
 howManyLightsabersDoYouOwn() === 0
 */
 
-function howManyLightsabersDoYouOwn(name) {
-  return
+const howManyLightsabersDoYouOwn = (name) => {
+  return name === 'Zach' ? 18 : 0;
 }
